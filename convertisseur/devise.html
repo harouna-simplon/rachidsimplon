@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>convertisseur de devise</title>
+    <link rel="stylesheet" href="devise.css">
+    <link rel="stylesheet" href="devise.js">
+</head>
+<body>
+ <div class="presentation">
+    <h3>BIENVENUE DANS VOTRE MENU CONVERSION</h3>
+   <form>
+    
+    <div class="formulaire">
+
+        <label for="montant">Montant</label>
+        <input type="number" name="montant" id="montant" placeholder="veillez saisir le montant a convertir">
+    </div>
+ <div class="formulaire">
+        <label for="de">DE</label>
+        <select name="de" id="de">
+            <option value="$">Dollar</option>
+            <option value="£">euro</option>
+            <option value="MRO">ouguiya</option>
+        </select>
+</div>
+       <div class="formulaire">
+
+        <label for="en">EN</label>
+        <select name="en" id="en">
+            <option value="fcfa">franc cfa</option>
+        </select>
+       </div>
+     
+<button class="btn" type="submit" onclick="convert()">faire la conversion</button>
+ </form> 
+<p id="resultat">resulat</p>
+</div>
+   <script src="devise.js"></script>
+
+</body>
+</html>

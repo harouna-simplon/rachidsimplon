@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(183, 170, 226);
+}
+.presentation{
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 210px;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: aqua;
+
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: bottom 20px;;
+}
+.formulaire{
+    margin-bottom: 5px;
+}
+label{
+    display: block;
+    margin-top: 5px;
+}
+input,select{
+    display: block;
+    width: 100%;
+    padding: 10px;
+
+}
+.btn{
+    background-color: aqua; 
